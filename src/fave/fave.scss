@@ -1,0 +1,27 @@
+body {
+	padding: 100px;
+}
+
+.fave-heart {
+	width: 35px;
+	height: 35px;
+	position: relative;
+	cursor: pointer;
+}
+.fave-toggle {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	left: -100%;
+	top: -100%;
+	background-image: url("./heart.png");
+	background-position: left 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fave-rank {
+	background-position: right 0;
+	transition: background-position 1s steps(28);
+}
